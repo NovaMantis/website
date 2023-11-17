@@ -4,12 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;900&display=swap" rel="stylesheet">
     <title>NovaMantis - Building your ideas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        h1,h2,h3 {
+            font-family: 'Gabarito', sans-serif;
+        }
+    </style>
 </head>
-<body class="bg-[#7DC24B]">
+<body class="text-[#f2f2f2]">
 
 <div class="h-screen w-screen flex items-center justify-center">
-    <h1 class="font-semibold text-xl text-[#205f25]">NovaMantis - Building your ideas</h1>
+    <div class="flex items-center justify-center absolute w-full h-full bg-gradient-to-b from-transparent to-[#222]">
+        <div>
+            <h1 class="uppercase text-[61px] leading-none">Nova<strong>Mantis</strong></h1>
+            <div class="space-y-0.5">
+                <h2 class="text-2xl">We build your ideas.</h2>
+                <p class="text-lg"><a href="mailto:hello@novamantis.co.uk">hello@novamantis.co.uk</a></p>
+            </div>
+        </div>
+    </div>
+    <img src="mantis.jpg" class="object-cover h-full w-full">
 </div>
 </body>
 </html>
